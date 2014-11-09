@@ -1,0 +1,42 @@
+body { margin: 0; padding: 0; color:#333; font: normal 13px/1.264 sans-serif; }
+img { border:0 }
+.clearfix { clear:both; }
+#devcontainer { margin: 1% auto; width: 98%; }
+pre, code { 
+	display: block;
+	padding: 10px;
+	color: #eee;
+	border: 1px solid #222;
+	background: #333;
+	font-family: monospace, monospace; 
+	_font-family: 'courier new', monospace; 
+	font-size: 1em;
+}
+#area { float:left; width: 99%; min-height:200px; }
+.desc { float:right; width: 99%; }
+.signature a { color:#555; text-decoration:none; }
+.signature img { margin-right:5px; vertical-align: middle; }
+
+#area input { height:40px; opacity:0; z-index:100; position:absolute; left:0; top: 0; width:98%; cursor:pointer; }
+#area u { display: block; width:96%; padding: 2%; text-align: center; background: #ddd; position:absolute;  }
+
+
+#kimages  { float:left; }
+
+#kimages p { width:100%; }
+
+#kinput { position:relative; float:left; width:99%; height:50px; margin-top:5px; }
+
+.ki { position:relative; float:left; width:75px; height:75px; overflow:hidden; margin:1px; background:#aaa; display:none; }
+.ki p { position:absolute; bottom:0; display: block; width: 100%; height:18px; margin:0; background: #888; color:#eee; text-align: center; opacity:0.7;}
+.ki p span { display: block; width: 100%; height:18px; background: #333; }
+.ki b, .ki img { display: block; }
+.ki img { margin: 0px 0; height:75px; margin:0 auto; }
+.kimg {  
+
+}
+
+@media only screen and (min-width: 321px) {
+	#area { width:49%; }
+	.desc { width:49%; }
+}
