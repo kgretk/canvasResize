@@ -56,3 +56,11 @@ to work which is also under the [MPL License](http://www.nihilogic.dk/licenses/m
 Developer
 ---------
 [goker](http://gokercebeci.com/ "goker")
+
+
+canvasResize + multiple files
+=============
+
+Attempt to allow uploading of multiple files, each resized on the client side, and then stored and additionally resized on the server.
+
+by [kgretk](http://kgretk.com/)
