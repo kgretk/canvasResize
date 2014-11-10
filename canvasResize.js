@@ -320,8 +320,8 @@
                     }
 
                     // CALLBACK
-                    $this.options.callback(data, newcanvas.width, newcanvas.height);
-
+                    //$this.options.callback(data, newcanvas.width, newcanvas.height);
+                    $this.options.callback(data, newcanvas.width, newcanvas.height, img.width, img.height); //kg: added oryg img size
                     // });
                 };
                 img.src = dataURL;
